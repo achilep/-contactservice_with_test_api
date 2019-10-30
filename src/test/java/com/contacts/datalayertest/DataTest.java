@@ -35,7 +35,7 @@ class DataTest {
 		} 
  for (Contacts contacts : contact) {
     	 
-    	 assertThat(contacts.getName()).hasSize(8)
+    	 assertThat(contacts.getName()).hasSizeGreaterThan(4)
                             
          ;
 	
@@ -43,5 +43,5 @@ class DataTest {
 
 	 
 	
-
+	}
 }
