@@ -40,23 +40,7 @@ class DataTest {
          ;
 	
 		} 
- for (Contacts contacts : contact) {
-	 
-	 assertThat(contacts.getId())
-                        
-     ;
 
-	} 
- 
-		assertEquals(3,contact.size());
-	}
-
-	@Test
-	public void testFindOne() {
-		Contacts contact = repository.findById(11).get();
-		//assertEquals(3,contact.size());
-		
-		}
 	 
 	
 
