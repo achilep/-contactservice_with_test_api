@@ -45,7 +45,7 @@ class BussnesTest {
 						new Contacts(3,"Item3","2322")));
 				
 		List<ContactsDto> contactdto = business.getContacts();
-		System.out.println(contactdto.size());
+		
 		assertEquals("Item2", contactdto.get(0).getName());
 		assertEquals("2322", contactdto.get(1).getPhone_number());
 	}

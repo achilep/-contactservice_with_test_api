@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 import com.contacts.models.Contacts;
 @Repository
 public interface ContactsRepository extends JpaRepository<Contacts,Integer>{
-	List<Contacts> findAll();
+	
 
 }
