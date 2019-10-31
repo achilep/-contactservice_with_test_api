@@ -29,6 +29,7 @@ class DataTest {
      for (Contacts contacts : contact) {
     	 
     	 assertThat(contacts.getPhone_number()).hasSize(8)
+    	                                       
                             
          ;
 	
